@@ -18,7 +18,7 @@ const weatherForecast = (latitude, longitude, callback) => {
       callback(
         undefined,
 
-        `${descrip}. It is ${temperature} degrees out and there is a ${precip}% chance of rain. The coordinates are ${lat}, ${lon} located at the ${country}.`
+        `${descrip}. It is ${temperature} degrees out and there is a ${precip}% chance of rain. The coordinates are ${lat}, ${lon}. Country: ${country}.`
       );
     }
   });
